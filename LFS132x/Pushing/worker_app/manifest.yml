@@ -1,0 +1,14 @@
+---
+applications:
+- name: worker-app
+  command: sh -xe < ./work
+  memory: 32M
+  disk_quota: 64M
+  no-route: true
+  health-check-type: none
+  buildpacks:
+    - binary_buildpack
+
+# On IBM Cloud you may need to specify
+# buildpacks:
+#   - https://github.com/cloudfoundry/binary-buildpack
