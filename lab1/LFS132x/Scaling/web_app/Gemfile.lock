@@ -5,7 +5,7 @@ GEM
     eventmachine (1.2.7)
     mustermann (1.0.3)
     puma (3.12.4)
-    rack (2.0.5)
+    rack (2.2.3)
     rack-protection (2.0.4)
       rack
     sinatra (2.0.4)
