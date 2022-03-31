@@ -4,7 +4,9 @@ GEM
     daemons (1.2.6)
     eventmachine (1.2.7)
     mustermann (1.0.3)
-    puma (3.12.4)
+    nio4r (2.5.8)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
